@@ -22,9 +22,9 @@ const Addtask = () => {
     });
   }
   return (
-    <Container>
-      <InputGroup className="mb-3">
-        <FormControl
+    <Container style={{ marginTop: 20}}>
+      <InputGroup>
+        <FormControl style={{ maxWidth: 595}}
           placeholder="Add new task"
           aria-label="Add new task"
           aria-describedby="basic-addon2"
